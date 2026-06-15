@@ -18,6 +18,12 @@ export const units = [
     luckOffset: 0.2,
   },
   {
+    name: "Yoruichi",
+    image: "",
+    baseOdd: 6.29075692258321e-7,
+    luckOffset: 0,
+  },
+  {
     name: "Mihawk",
     image: "",
     baseOdd: 5.837854e-7,
