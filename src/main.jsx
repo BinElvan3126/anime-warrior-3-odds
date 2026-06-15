@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import BuffInputCard from "./components/BuffInputCard";
 import OddsTable from "./components/OddsTable";
 import FormulaPanel from "./components/FormulaPanel";
+import { registerServiceWorker } from "./registerServiceWorker";
 
 function App() {
   const [buffs, setBuffs] = useState({
@@ -56,3 +57,4 @@ function App() {
 }
 
 createRoot(document.getElementById("root")).render(<App />);
+registerServiceWorker();
